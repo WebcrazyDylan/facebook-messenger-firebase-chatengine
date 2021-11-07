@@ -7,6 +7,7 @@ import { ChatEngine } from "react-chat-engine";
 import { useAuth } from "../contexts/AuthContext";
 
 import { auth } from "../firebase";
+import { LogoutOutlined, UnlockOutlined } from "@ant-design/icons";
 
 export default function Chats() {
   const didMountRef = useRef(false);
@@ -76,8 +77,13 @@ export default function Chats() {
       <div className="nav-bar">
         <div className="logo-tab">Dylan Chat!</div>
 
-        <div onClick={handleLogout} className="logout-tab">
-          Logout
+        <div className="logout-tab">
+          <div className="logout-container">
+            <div className="logout-name">{user.email}</div>
+            <div onClick={handleLogout} className="logout-button">
+              <UnlockOutlined />
+            </div>
+          </div>
         </div>
       </div>
 

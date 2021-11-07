@@ -24,9 +24,9 @@
 
 .logo-tab {
   position: absolute;
-  left: 22px;
+  left: 15px;
   top: 12px;
-  font-size: 32px;
+  font-size: 30px;
   font-weight: 700;
   color: white;
 }
@@ -34,8 +34,22 @@
 .logout-tab {
   position: absolute;
   top: 22px;
-  right: 22px;
+  right: 10px;
   color: white;
+  /* width: 400px; */
+}
+
+.logout-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.logout-name {
+  font-size: 13px;
+}
+.logout-button {
+  margin-left: 5px;
   cursor: pointer;
 }
 
