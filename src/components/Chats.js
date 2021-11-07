@@ -7,7 +7,7 @@ import { ChatEngine } from "react-chat-engine";
 import { useAuth } from "../contexts/AuthContext";
 
 import { auth } from "../firebase";
-import { LogoutOutlined, UnlockOutlined } from "@ant-design/icons";
+import { UnlockOutlined } from "@ant-design/icons";
 
 export default function Chats() {
   const didMountRef = useRef(false);
