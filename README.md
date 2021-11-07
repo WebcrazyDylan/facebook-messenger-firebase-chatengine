@@ -1,8 +1,15 @@
-# Unichat boilerplace
+# Facebook messenger using chatengine with firebase
 
-This is a modded creat-react-app project. It comes with:
+LEARN:
 
-- A manifest with correct packages
-- Useless files taken out
-- Needed folder structure
-- CSS
+- Routing
+- Firebase Social Login ( Firebase Google Login, Firebase Facebook Login)
+- React Context API
+- Chat Engine
+- REST API's
+
+Source Code : https://github.com/WebcrazyDylan/facebook-messenger-firebase-chatengine
+
+Demo Website : https://fbchat.jonghyun.cf
+
+Dylan Park : https://jonghyun.cf
